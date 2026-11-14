@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you reference the Vision Flow Research Lab Scientific Hub, HQAS-8/AMCG-3 DOIs, or bilingual RLHF/S2S evaluation benchmarks, please cite using the metadata below."
+title: "Vision Flow Research Lab — Scientific Research Hub, HQAS-8 / AMCG-3 Specifications & RLHF Evaluation Dossiers"
+version: 1.0.0
+date-released: 2026-11-14
+url: "https://jashory.github.io/"
+repository-code: "https://github.com/jashory/jashory.github.io"
+license: CC-BY-4.0
+authors:
+  - family-names: "Jashory"
+    given-names: "HM Shihabuddin"
+    orcid: "https://orcid.org/0009-0003-4163-0092"
+    affiliation: "Scientist, Founder & CEO, Vision Flow Group (Wikidata Q141910527) & B.Sc. Computer Science Candidate, University of the People"
+  - family-names: "Shubho"
+    given-names: "MD Rafiul Islam"
+    affiliation: "Researcher, AI Evaluator & RLHF / S2S Specialist, Co-Founder & Managing Director, Vision Flow Group (Wikidata Q141910527)"
+keywords:
+  - "Scientist HM Shihabuddin Jashory"
+  - "MD Rafiul Islam Shubho"
+  - "AI Evaluator"
+  - "RLHF"
+  - "Speech-to-Speech Evaluation"
+  - "Autonomous Agentic Governance"
+  - "HQAS-8"
+  - "AMCG-3"
+  - "Vision Flow Group"
+references:
+  - type: article
+    title: "Dual-Axis 8-Layer Autonomous Agentic Governance (HQAS-8)"
+    doi: "10.5281/zenodo.23832719"
+    authors:
+      - family-names: "Jashory"
+        given-names: "HM Shihabuddin"
+  - type: article
+    title: "Eliminating Auto-Compaction Amnesia and Unverified Execution in Autonomous LLM Agents (AMCG-3)"
+    doi: "10.5281/zenodo.24107586"
+    authors:
+      - family-names: "Jashory"
+        given-names: "HM Shihabuddin"
