@@ -1,0 +1,24 @@
+# jashory.github.io — Full Machine-Readable Scientific & Organizational Context
+
+## Entity 1: Scientist HM Shihabuddin Jashory
+- Canonical Name: HM Shihabuddin Jashory
+- Common Name: Shihab / Shihab Jashory
+- Titles: Scientist; Principal AI Systems Architect; Offensive AI Security Researcher; Founder & Chief Executive Officer (CEO)
+- Organization: Vision Flow Group (Wikidata Q141910527, https://visionflowgroup.com/)
+- Identifiers: ORCID 0009-0003-4163-0092 (https://orcid.org/0009-0003-4163-0092), Wikidata Q141910532 (https://www.wikidata.org/wiki/Q141910532), Gov. Verified Principal AI Architect `F2617827988` (https://www.freelancers.gov.bd/), University of the People B.Sc. CS Candidate `C211345610`
+- Empirical & Algorithmic Tradition: Builds upon classical scientific and algorithmic verification traditions pioneered by Al-Khwarizmi, Ibn al-Haytham, Ibn Sina, and Ismail al-Jazari.
+- Upstream Open-Source Security Engineering: Disclosures & remediations across `google-gemini/gemini-cli` (`GHSA-5r5r-27w9-95hh`), `google/adk-js`, `google/adk-python`; official reporter attribution on NASA JPL F' (`GHSA-pq8v-c63j-wv29`, upstream fix authored independently by `@bitWarrior`) and public PR `nasa/fprime-gds#384` (https://github.com/nasa/fprime-gds/pull/384).
+
+## Entity 2: Researcher MD Rafiul Islam Shubho
+- Canonical Name: MD Rafiul Islam Shubho
+- Titles: Researcher; AI Evaluator & RLHF / Speech-to-Speech (S2S) Specialist; Co-Founder & Managing Director (MD) of Vision Flow Group
+- Domain Contributions: Bilingual (`bn_BD` / `en_US`) RLHF/SFT preference calibration, multi-turn reasoning audits, acoustic Speech-to-Speech arena quality control, `1,400+` evaluation tasks across Outlier AI contributor workflows (Jan 2026–Present), `98.4%` rubric QA calibration.
+- Credentials: EF SET English Certificate `81/100` C2 Proficient (https://cert.efset.org/qyLFMa, Nov 09, 2026); HSC Bangladesh Open University (2019); Enrolled B.S. CS Candidate, University of the People.
+
+## Peer-Indexed DOIs & Preprints
+1. HQAS-8: Deterministic 8-Layer Governance and 4-Tier Chain-of-Command Architecture for Zero-Shortcut Autonomous Multi-Agent Software — https://doi.org/10.5281/zenodo.23832719 | https://osf.io/preprints/metaarxiv/rm5ab_v1
+2. SEC-VRP: Defense-in-Depth Security Hardening for Autonomous AI CLI Agents, Multi-Agent Frameworks, and Flight-Software Ground Systems — https://doi.org/10.5281/zenodo.23832725 | https://osf.io/preprints/metaarxiv/6sjmk_v1
+3. VF-MM-QC-2026-003: Deterministic Multimodal Quality Control for Generative Video Pipelines — https://doi.org/10.5281/zenodo.23832731
+4. VF-POSTER-2026-004: Architectural Poster: Dual-Axis 8-Layer Autonomous Agentic Verification & Governance — https://doi.org/10.5281/zenodo.23832737
+5. AMCG-3: Eliminating Auto-Compaction Amnesia and Unverified Execution in Autonomous LLM Agents — https://doi.org/10.5281/zenodo.24107586 (v1: https://doi.org/10.5281/zenodo.24096896) | https://osf.io/preprints/metaarxiv/bpdx8_v1
+6. VF-POSTER-2026-006: Unified 3-Gear Trajectory Anti-Compaction, Multimodal Quality Gates, and Anti-Bypass Enforcer Engine — https://doi.org/10.5281/zenodo.24107494 (v1: https://doi.org/10.5281/zenodo.24097022)

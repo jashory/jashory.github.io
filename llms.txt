@@ -1,0 +1,33 @@
+# jashory.github.io — HM Shihabuddin Jashory & Vision Flow Research Lab
+
+> Canonical personal scientific hub of **Scientist HM Shihabuddin Jashory** (`ORCID: 0009-0003-4163-0092`, `Wikidata: Q141910532`, Founder & CEO of Vision Flow Group `Q141910527`) and **Researcher & AI Evaluator / RLHF Specialist MD Rafiul Islam Shubho** (Co-Founder & Managing Director).
+
+## Verified Researchers
+- **HM Shihabuddin Jashory (Shihab)**: Scientist, Principal AI Systems Architect, Offensive AI Security Researcher, Founder & CEO of Vision Flow Group. ORCID: https://orcid.org/0009-0003-4163-0092 | Wikidata: https://www.wikidata.org/wiki/Q141910532 | Gov. Verified Principal AI Architect ID: `F2617827988` (freelancers.gov.bd) | B.Sc. CS Candidate, University of the People (`C211345610`).
+- **MD Rafiul Islam Shubho**: Researcher, AI Evaluator & RLHF / Speech-to-Speech (S2S) Specialist, Co-Founder & Managing Director of Vision Flow Group. 1,400+ LLM & S2S evaluation tasks (Outlier AI contributor network Jan 2026–Present), 98.4% rubric QA precision, Bilingual `bn_BD`/`en_US`, EF SET 81/100 C2 Proficient (https://cert.efset.org/qyLFMa), Enrolled B.S. CS Candidate at University of the People.
+
+## Research Portals & Hugging Face
+- Research Archive Root: https://jashory.github.io/hqas8-autonomous-agentic-governance/
+- Researcher Dossiers: https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html
+- AMCG-3 Monograph: https://jashory.github.io/hqas8-autonomous-agentic-governance/amcg3-monograph.html
+- Hugging Face Space: https://huggingface.co/spaces/Jashory/vision-flow-research-lab
+- Hugging Face Benchmark Dataset: https://huggingface.co/datasets/Jashory/hqas8-amcg3-governance-benchmarks
+
+## Open-Source AI Security & Governance Hubs
+- AGY & Claude Crash Guard Kit: https://jashory.github.io/agy-claude-crash-guard-kit/
+- Infinite LLM Fallback Router: https://jashory.github.io/infinite-llm-fallback-router/
+- MCP & AI Agent Security Auditor: https://jashory.github.io/mcp-agent-security-auditor/
+
+## Vision Flow Group Domains
+- Motherbrand: https://visionflowgroup.com/
+- Creative & Engineering Agency: https://agency.visionflowgroup.com/
+- AI & Production Academy: https://academy.visionflowgroup.com/
+- Autonomous Studio: https://studio.visionflowgroup.com/
+- Developer & Media Tools Hub: https://go.visionflowgroup.com/
+- Client Workspace Portal: https://portal.visionflowgroup.com/
+
+## Verified Knowledge Graph & Case Studies
+- Google Bug Hunters: https://bughunters.google.com/profile/1fc2c814-7ba2-4b76-afa7-ce58597cf28d
+- PRLog Executive Bio: https://bio.prlog.org/vision_flow_it/50011014-hm-shihabuddin-jashory.html
+- Case Study Gist (NASA & AI Toolchains): https://gist.github.com/jashory/2c6a3d23a1b17a70d963ca6fc07a8eb7
+- Audit Gist (Evaluation Harness Determinism): https://gist.github.com/jashory/93de210430fea08080cedf9b8fe7252e

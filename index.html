@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HM Shihabuddin Jashory — Scientist, AI Systems Architect | MD Rafiul Islam Shubho — Vision Flow Research Lab</title>
+  <meta name="description" content="Official scientific research hub of Scientist HM Shihabuddin Jashory (ORCID 0009-0003-4163-0092, Wikidata Q141910532) and Researcher &amp; AI Evaluator / RLHF Specialist MD Rafiul Islam Shubho at Vision Flow Group (Q141910527). Peer-indexed Zenodo DOIs, OSF MetaArXiv preprints, HQAS-8 &amp; AMCG-3 specifications, Hugging Face benchmarks, and open-source AI security systems." />
+  <meta name="author" content="HM Shihabuddin Jashory, MD Rafiul Islam Shubho" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="canonical" href="https://jashory.github.io/" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="HM Shihabuddin Jashory — Scientist &amp; AI Systems Architect | Vision Flow Research Lab" />
+  <meta property="og:description" content="Canonical research archive uniting Scientist HM Shihabuddin Jashory (ORCID 0009-0003-4163-0092) and Researcher &amp; RLHF Specialist MD Rafiul Islam Shubho — 6 CERN Zenodo DOIs, 3 OSF MetaArXiv preprints, Hugging Face datasets, and open-source AI agent security toolchains." />
+  <meta property="og:url" content="https://jashory.github.io/" />
+  <meta property="og:site_name" content="HM Shihabuddin Jashory Scientific Hub" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@jashory7" />
+  <meta name="twitter:title" content="Scientist HM Shihabuddin Jashory &amp; RLHF Researcher MD Rafiul Islam Shubho" />
+  <meta name="twitter:description" content="HQAS-8 &amp; AMCG-3 deterministic AI governance monographs, CERN Zenodo DOIs, Hugging Face datasets, and open-source agentic security packages." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #080b12;
+      --surface: #0f1522;
+      --surface-elevated: #141c2d;
+      --border: #1e2a42;
+      --border-strong: #2d3f63;
+      --ink: #e6edf7;
+      --muted: #93a4bd;
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.12);
+      --emerald: #34d399;
+      --emerald-soft: rgba(52, 211, 153, 0.12);
+      --amber: #f59e0b;
+      --radius: 12px;
+      --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+    }
+    body {
+      margin: 0;
+      font-family: 'Exo', system-ui, -apple-system, sans-serif;
+      background:
+        radial-gradient(900px 420px at 15% -5%, rgba(56, 189, 248, 0.09), transparent 60%),
+        radial-gradient(700px 380px at 85% 5%, rgba(52, 211, 153, 0.06), transparent 55%),
+        var(--bg);
+      color: var(--ink);
+      line-height: 1.62;
+      font-size: 16px;
+    }
+    code, .mono { font-family: 'Roboto Mono', ui-monospace, monospace; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible, button:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 6px;
+    }
+    .skip-link {
+      position: absolute; left: -9999px; top: 8px;
+      background: var(--accent); color: #05080f; font-weight: 600; padding: 8px 14px; border-radius: 6px;
+    }
+    .skip-link:focus { left: 16px; z-index: 100; }
+    .container { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
+    header.topbar {
+      border-bottom: 1px solid var(--border);
+      background: rgba(8, 11, 18, 0.88);
+      backdrop-filter: blur(10px);
+      position: sticky; top: 0; z-index: 30;
+    }
+    .topbar-inner {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+      gap: 14px; min-height: 64px; padding: 10px 0;
+    }
+    .brand {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-weight: 700; color: var(--ink); letter-spacing: 0.01em;
+    }
+    .brand svg { color: var(--accent); flex-shrink: 0; }
+    nav.navlinks { display: flex; flex-wrap: wrap; gap: 18px; font-size: 0.92rem; }
+    nav.navlinks a { color: var(--muted); font-weight: 500; padding: 4px 2px; }
+    nav.navlinks a:hover { color: var(--ink); text-decoration: none; }
+    .hero { padding: 56px 0 36px; border-bottom: 1px solid var(--border); }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; }
+    .pill {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 5px 12px; border-radius: 999px; font-size: 0.82rem; font-weight: 600;
+      border: 1px solid var(--border-strong); background: var(--surface); color: var(--ink);
+    }
+    .pill.emerald { background: var(--emerald-soft); border-color: rgba(52, 211, 153, 0.35); color: var(--emerald); }
+    .pill.cyan { background: var(--accent-soft); border-color: rgba(56, 189, 248, 0.35); color: var(--accent); }
+    h1 {
+      margin: 0 0 14px; font-size: clamp(1.9rem, 3.6vw, 2.85rem); line-height: 1.16; font-weight: 700;
+      letter-spacing: -0.015em; max-width: 26ch;
+    }
+    .lead { max-width: 74ch; color: var(--muted); font-size: 1.04rem; margin: 0 0 24px; }
+    .lead strong { color: var(--ink); }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+      padding: 10px 18px; border-radius: 9px; font-weight: 600; font-size: 0.94rem;
+      border: 1px solid var(--border-strong); background: var(--surface-elevated); color: var(--ink);
+      transition: border-color 180ms ease, background 180ms ease;
+    }
+    .btn.primary { background: var(--accent); color: #05080f; border-color: var(--accent); }
+    .btn.primary:hover { background: #60cbff; text-decoration: none; }
+    .btn:hover { border-color: var(--accent); text-decoration: none; }
+    blockquote.heritage {
+      margin: 26px 0 0; padding: 14px 18px; border-left: 3px solid var(--emerald);
+      background: var(--surface); border-radius: 0 var(--radius) var(--radius) 0;
+      color: var(--muted); max-width: 76ch; font-size: 0.94rem;
+    }
+    section { padding: 42px 0; border-bottom: 1px solid var(--border); }
+    h2 {
+      display: flex; align-items: center; gap: 10px;
+      margin: 0 0 18px; font-size: 1.45rem; font-weight: 700;
+    }
+    h2 svg { color: var(--accent); flex-shrink: 0; }
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 20px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 22px; display: flex; flex-direction: column; gap: 12px;
+      transition: border-color 180ms ease;
+    }
+    .card:hover { border-color: var(--border-strong); }
+    .card h3 { margin: 0; font-size: 1.15rem; font-weight: 700; color: var(--ink); }
+    .role-tag { font-size: 0.86rem; color: var(--emerald); font-weight: 600; margin: -4px 0 2px; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.94rem; }
+    .kv-list { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 7px; font-size: 0.9rem; }
+    .kv-list li { color: var(--muted); }
+    .kv-list strong { color: var(--ink); }
+    .paper-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    .paper-table th, .paper-table td {
+      padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top;
+    }
+    .paper-table th { color: var(--ink); font-weight: 600; background: var(--surface); }
+    .paper-table td { color: var(--muted); }
+    .paper-table td strong { color: var(--ink); }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); }
+    footer { padding: 34px 0 46px; color: var(--muted); font-size: 0.9rem; }
+    .footer-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; }
+    .inline-links { display: flex; flex-wrap: wrap; gap: 14px; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://jashory.github.io/#website",
+        "url": "https://jashory.github.io/",
+        "name": "HM Shihabuddin Jashory Scientific Research Hub",
+        "description": "Canonical open-research hub for Scientist HM Shihabuddin Jashory and Researcher & AI Evaluator / RLHF Specialist MD Rafiul Islam Shubho at Vision Flow Group.",
+        "publisher": { "@id": "https://visionflowgroup.com/#organization" }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://jashory.github.io/#webpage",
+        "url": "https://jashory.github.io/",
+        "name": "HM Shihabuddin Jashory — Scientist & AI Systems Architect | MD Rafiul Islam Shubho — Vision Flow Research Lab",
+        "isPartOf": { "@id": "https://jashory.github.io/#website" },
+        "mainEntity": { "@id": "https://orcid.org/0009-0003-4163-0092#person" },
+        "about": [
+          { "@id": "https://orcid.org/0009-0003-4163-0092#person" },
+          { "@id": "https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html#md-rafiul-islam-shubho" },
+          { "@id": "https://visionflowgroup.com/#organization" }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0003-4163-0092#person",
+        "name": "HM Shihabuddin Jashory",
+        "alternateName": ["Shihabuddin Jashory", "Shihab Jashory", "MD SHIHABUDDIN", "Shihab"],
+        "jobTitle": ["Scientist", "Principal AI Systems Architect", "Offensive AI Security Researcher", "Founder & Chief Executive Officer (CEO)"],
+        "hasOccupation": [
+          { "@type": "Occupation", "name": "Scientist" },
+          { "@type": "Occupation", "name": "AI Systems Architect" },
+          { "@type": "Occupation", "name": "Security Researcher" }
+        ],
+        "description": "Bangladeshi scientist, Principal AI Systems Architect, Offensive AI Security Researcher, and Founder & CEO of Vision Flow Group (Wikidata Q141910527). Author of the HQAS-8 deterministic multi-agent governance specification and AMCG-3 anti-compaction framework across 6 CERN Zenodo DOIs and 3 OSF MetaArXiv preprints.",
+        "url": "https://jashory.github.io/",
+        "email": "mailto:ceo@visionflowgroup.com",
+        "nationality": { "@type": "Country", "name": "Bangladesh" },
+        "worksFor": { "@id": "https://visionflowgroup.com/#organization" },
+        "affiliation": [
+          { "@id": "https://visionflowgroup.com/#organization" },
+          { "@type": "CollegeOrUniversity", "name": "University of the People" }
+        ],
+        "colleague": { "@id": "https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html#md-rafiul-islam-shubho" },
+        "identifier": [
+          { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0003-4163-0092" },
+          { "@type": "PropertyValue", "propertyID": "Wikidata", "value": "Q141910532" },
+          { "@type": "PropertyValue", "propertyID": "Govt. Verified Principal AI Architect (freelancers.gov.bd)", "value": "F2617827988" },
+          { "@type": "PropertyValue", "propertyID": "UoPeople Student ID", "value": "C211345610" }
+        ],
+        "sameAs": [
+          "https://orcid.org/0009-0003-4163-0092",
+          "https://www.wikidata.org/wiki/Q141910532",
+          "https://github.com/jashory",
+          "https://huggingface.co/Jashory",
+          "https://huggingface.co/spaces/Jashory/vision-flow-research-lab",
+          "https://huggingface.co/datasets/Jashory/hqas8-amcg3-governance-benchmarks",
+          "https://jashory.github.io/hqas8-autonomous-agentic-governance/",
+          "https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html",
+          "https://bughunters.google.com/profile/1fc2c814-7ba2-4b76-afa7-ce58597cf28d",
+          "https://bio.prlog.org/vision_flow_it/50011014-hm-shihabuddin-jashory.html",
+          "https://www.linkedin.com/in/hm-shihabuddin-jashory",
+          "https://dev.to/jashory",
+          "https://medium.com/@jashory7",
+          "https://x.com/jashory7",
+          "https://www.youtube.com/@your_jashory",
+          "https://www.facebook.com/Jashory",
+          "https://www.instagram.com/your_jashory/",
+          "https://visionflowgroup.com/",
+          "https://gist.github.com/jashory/2c6a3d23a1b17a70d963ca6fc07a8eb7",
+          "https://gist.github.com/jashory/93de210430fea08080cedf9b8fe7252e"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html#md-rafiul-islam-shubho",
+        "name": "MD Rafiul Islam Shubho",
+        "alternateName": ["Md Rafiul Islam Shubho", "Rafiul Islam Shubho"],
+        "jobTitle": ["Researcher", "AI Evaluator & RLHF / Speech-to-Speech (S2S) Specialist", "Co-Founder & Managing Director (MD)"],
+        "hasOccupation": [
+          { "@type": "Occupation", "name": "Researcher" },
+          { "@type": "Occupation", "name": "AI Evaluator and RLHF Specialist" },
+          { "@type": "Occupation", "name": "Managing Director" }
+        ],
+        "description": "Bangladeshi Researcher, bilingual (bn_BD/en_US) AI Evaluator, RLHF/SFT & Speech-to-Speech (S2S) Arena Quality Auditor, and Co-Founder & Managing Director of Vision Flow Group (Q141910527). Completed 1,400+ LLM and S2S evaluation tasks with 98.4% rubric QA precision via the Outlier AI contributor network (Jan 2026-Present), holds EF SET 81/100 C2 Proficient certification, and is an enrolled B.S. CS candidate at University of the People.",
+        "url": "https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html#md-rafiul-islam-shubho",
+        "nationality": { "@type": "Country", "name": "Bangladesh" },
+        "knowsLanguage": ["en-US", "bn-BD"],
+        "worksFor": { "@id": "https://visionflowgroup.com/#organization" },
+        "affiliation": [
+          { "@id": "https://visionflowgroup.com/#organization" },
+          { "@type": "CollegeOrUniversity", "name": "University of the People" }
+        ],
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "name": "EF SET English Certificate (81/100 C2 Proficient)",
+          "url": "https://cert.efset.org/qyLFMa",
+          "dateCreated": "2026-11-09"
+        },
+        "sameAs": [
+          "https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html#md-rafiul-islam-shubho",
+          "https://cert.efset.org/qyLFMa",
+          "https://visionflowgroup.com/",
+          "https://huggingface.co/datasets/Jashory/hqas8-amcg3-governance-benchmarks"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://visionflowgroup.com/#organization",
+        "name": "Vision Flow Group",
+        "alternateName": ["Vision Flow Research Lab", "Vision Flow Agency", "Vision Flow Academy", "Vision Flow Studio", "Vision Flow Tools Hub", "Vision Flow BD"],
+        "url": "https://visionflowgroup.com/",
+        "email": "mailto:contact@visionflowgroup.com",
+        "founder": [
+          { "@id": "https://orcid.org/0009-0003-4163-0092#person" },
+          { "@id": "https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html#md-rafiul-islam-shubho" }
+        ],
+        "identifier": [
+          { "@type": "PropertyValue", "propertyID": "Wikidata", "value": "Q141910527" }
+        ],
+        "sameAs": [
+          "https://visionflowgroup.com/",
+          "https://agency.visionflowgroup.com/",
+          "https://academy.visionflowgroup.com/",
+          "https://studio.visionflowgroup.com/",
+          "https://go.visionflowgroup.com/",
+          "https://portal.visionflowgroup.com/",
+          "https://www.wikidata.org/wiki/Q141910527",
+          "https://github.com/visionflow-bd",
+          "https://huggingface.co/spaces/Jashory/vision-flow-research-lab"
+        ]
+      },
+      {
+        "@type": "Dataset",
+        "@id": "https://huggingface.co/datasets/Jashory/hqas8-amcg3-governance-benchmarks#dataset",
+        "name": "HQAS-8 & AMCG-3 Governance & Evaluation Benchmarks",
+        "url": "https://huggingface.co/datasets/Jashory/hqas8-amcg3-governance-benchmarks",
+        "creator": [
+          { "@id": "https://orcid.org/0009-0003-4163-0092#person" },
+          { "@id": "https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html#md-rafiul-islam-shubho" }
+        ],
+        "license": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "name": "Deterministic 8-Layer Governance and 4-Tier Chain-of-Command Architecture for Zero-Shortcut Autonomous Multi-Agent Software (HQAS-8)",
+        "author": { "@id": "https://orcid.org/0009-0003-4163-0092#person" },
+        "sameAs": [
+          "https://doi.org/10.5281/zenodo.23832719",
+          "https://osf.io/preprints/metaarxiv/rm5ab_v1"
+        ]
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "name": "Eliminating Auto-Compaction Amnesia and Unverified Execution in Autonomous LLM Agents (AMCG-3)",
+        "author": { "@id": "https://orcid.org/0009-0003-4163-0092#person" },
+        "sameAs": [
+          "https://doi.org/10.5281/zenodo.24107586",
+          "https://osf.io/preprints/metaarxiv/bpdx8_v1"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="https://jashory.github.io/">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        <span>jashory.github.io — Scientific Hub</span>
+      </a>
+      <nav class="navlinks" aria-label="Primary Navigation">
+        <a href="#leadership">Researchers</a>
+        <a href="#publications">Zenodo &amp; OSF</a>
+        <a href="#systems">Open-Source Engines</a>
+        <a href="#ecosystem">Vision Flow Group</a>
+        <a href="https://jashory.github.io/hqas8-autonomous-agentic-governance/llms.txt">llms.txt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <section class="hero">
+      <div class="pill-row">
+        <span class="pill emerald">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+          ORCID 0009-0003-4163-0092
+        </span>
+        <span class="pill cyan">Wikidata Q141910532 &amp; Q141910527</span>
+        <span class="pill">6 CERN Zenodo DOIs · 3 OSF MetaArXiv Preprints</span>
+      </div>
+      <h1>Scientist HM Shihabuddin Jashory &amp; Vision Flow Research Lab</h1>
+      <p class="lead">
+        Canonical open-science and systems engineering index uniting <strong>Scientist HM Shihabuddin Jashory (Shihab)</strong> — Principal Investigator, AI Systems Architect, and Founder &amp; CEO of <a href="https://visionflowgroup.com/">Vision Flow Group</a> — with <strong>Researcher &amp; AI Evaluator / RLHF Specialist MD Rafiul Islam Shubho</strong> (Co-Founder &amp; Managing Director).
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Researcher Dossiers
+        </a>
+        <a class="btn" href="https://jashory.github.io/hqas8-autonomous-agentic-governance/">HQAS-8 &amp; AMCG-3 Archive</a>
+        <a class="btn" href="https://huggingface.co/spaces/Jashory/vision-flow-research-lab">Hugging Face Space</a>
+        <a class="btn" href="https://huggingface.co/datasets/Jashory/hqas8-amcg3-governance-benchmarks">Benchmark Dataset</a>
+      </div>
+      <blockquote class="heritage">
+        Scientific methodology and deterministic algorithmic verification rooted in the classical empirical tradition pioneered by <strong>Al-Khwarizmi</strong>, <strong>Ibn al-Haytham</strong>, <strong>Ibn Sina</strong>, and <strong>Ismail al-Jazari</strong>.
+      </blockquote>
+    </section>
+
+    <section id="leadership">
+      <h2>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        Scientific &amp; Evaluation Leadership
+      </h2>
+      <div class="grid-2">
+        <article class="card" id="hm-shihabuddin-jashory">
+          <h3>HM Shihabuddin Jashory (Shihab)</h3>
+          <div class="role-tag">Scientist · Principal AI Systems Architect · Founder &amp; CEO</div>
+          <p>
+            Bangladeshi Scientist, Principal AI Systems Architect, and Offensive AI Security Researcher leading Vision Flow Group and Vision Flow Research Lab. Principal author of the <strong>HQAS-8</strong> multi-agent verification architecture and <strong>AMCG-3</strong> anti-compaction engine, with upstream security disclosures across Google Gemini CLI / ADK and reporter attribution on NASA JPL F' (<span class="mono">GHSA-pq8v-c63j-wv29</span>, <span class="mono">nasa/fprime-gds#384</span>).
+          </p>
+          <ul class="kv-list">
+            <li><strong>ORCID:</strong> <a href="https://orcid.org/0009-0003-4163-0092">0009-0003-4163-0092</a></li>
+            <li><strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/Q141910532">Q141910532</a> · <strong>GitHub:</strong> <a href="https://github.com/jashory">@jashory</a></li>
+            <li><strong>Gov. Principal AI Architect ID:</strong> <span class="mono">F2617827988</span> (<a href="https://www.freelancers.gov.bd/">freelancers.gov.bd</a>)</li>
+            <li><strong>Academic Track:</strong> B.Sc. Computer Science Candidate, University of the People (<span class="mono">C211345610</span>)</li>
+            <li><strong>Verification:</strong> <a href="https://bughunters.google.com/profile/1fc2c814-7ba2-4b76-afa7-ce58597cf28d">Google Bug Hunters</a> · <a href="https://bio.prlog.org/vision_flow_it/50011014-hm-shihabuddin-jashory.html">PRLog Profile</a> · <a href="https://www.linkedin.com/in/hm-shihabuddin-jashory">LinkedIn</a></li>
+          </ul>
+        </article>
+
+        <article class="card" id="md-rafiul-islam-shubho">
+          <h3>MD Rafiul Islam Shubho</h3>
+          <div class="role-tag">Researcher · AI Evaluator &amp; RLHF / S2S Specialist · Co-Founder &amp; MD</div>
+          <p>
+            Bangladeshi Researcher, bilingual (<span class="mono">bn_BD</span> / <span class="mono">en_US</span>) AI Evaluator, RLHF / SFT Alignment Specialist, and Speech-to-Speech (S2S) Arena Quality Auditor serving as Co-Founder &amp; Managing Director of Vision Flow Group. Co-author of deterministic evaluation benchmarks and calibration standards.
+          </p>
+          <ul class="kv-list">
+            <li><strong>RLHF Production Volume:</strong> <span class="mono">1,400+</span> LLM &amp; S2S evaluation tasks (Outlier AI contributor network, Jan 2026–Present)</li>
+            <li><strong>Quality Calibration:</strong> <span class="mono">98.4%</span> rubric QA pass precision across reasoning &amp; acoustic S2S audits</li>
+            <li><strong>Language Certification:</strong> EF SET <span class="mono">81/100</span> C2 Proficient (<a href="https://cert.efset.org/qyLFMa">Verify Cert qyLFMa</a>)</li>
+            <li><strong>Academic Track:</strong> Enrolled B.S. Computer Science Candidate, University of the People</li>
+            <li><strong>Research Dossier:</strong> <a href="https://jashory.github.io/hqas8-autonomous-agentic-governance/researchers.html#md-rafiul-islam-shubho">Canonical Researcher Page</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Peer-Indexed Scientific Publications (CERN Zenodo &amp; OSF MetaArXiv)
+      </h2>
+      <div class="table-wrap">
+        <table class="paper-table">
+          <thead>
+            <tr>
+              <th>Code</th>
+              <th>Title &amp; Focus</th>
+              <th>CERN Zenodo DOI</th>
+              <th>OSF MetaArXiv / Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="mono">HQAS-8</td>
+              <td><strong>Deterministic 8-Layer Governance and 4-Tier Chain-of-Command Architecture for Zero-Shortcut Autonomous Multi-Agent Software</strong></td>
+              <td><a href="https://doi.org/10.5281/zenodo.23832719">10.5281/zenodo.23832719</a></td>
+              <td><a href="https://osf.io/preprints/metaarxiv/rm5ab_v1">MetaArXiv rm5ab_v1</a></td>
+            </tr>
+            <tr>
+              <td class="mono">SEC-VRP</td>
+              <td><strong>Defense-in-Depth Security Hardening for Autonomous AI CLI Agents, Multi-Agent Frameworks, and Flight-Software Ground Systems</strong></td>
+              <td><a href="https://doi.org/10.5281/zenodo.23832725">10.5281/zenodo.23832725</a></td>
+              <td><a href="https://osf.io/preprints/metaarxiv/6sjmk_v1">MetaArXiv 6sjmk_v1</a></td>
+            </tr>
+            <tr>
+              <td class="mono">VF-MM-QC</td>
+              <td><strong>Deterministic Multimodal Quality Control for Generative Video Pipelines</strong></td>
+              <td><a href="https://doi.org/10.5281/zenodo.23832731">10.5281/zenodo.23832731</a></td>
+              <td><a href="https://jashory.github.io/hqas8-autonomous-agentic-governance/">Research Portal</a></td>
+            </tr>
+            <tr>
+              <td class="mono">POSTER-04</td>
+              <td><strong>Architectural Poster: Dual-Axis 8-Layer Autonomous Agentic Verification &amp; Governance</strong></td>
+              <td><a href="https://doi.org/10.5281/zenodo.23832737">10.5281/zenodo.23832737</a></td>
+              <td><a href="https://jashory.github.io/hqas8-autonomous-agentic-governance/">Visual Archive</a></td>
+            </tr>
+            <tr>
+              <td class="mono">AMCG-3</td>
+              <td><strong>Eliminating Auto-Compaction Amnesia and Unverified Execution in Autonomous LLM Agents</strong></td>
+              <td><a href="https://doi.org/10.5281/zenodo.24107586">10.5281/zenodo.24107586</a> (v1: <a href="https://doi.org/10.5281/zenodo.24096896">24096896</a>)</td>
+              <td><a href="https://osf.io/preprints/metaarxiv/bpdx8_v1">MetaArXiv bpdx8_v1</a> · <a href="https://jashory.github.io/hqas8-autonomous-agentic-governance/amcg3-monograph.html">Monograph</a></td>
+            </tr>
+            <tr>
+              <td class="mono">POSTER-06</td>
+              <td><strong>Unified 3-Gear Trajectory Anti-Compaction, Multimodal Quality Gates, and Anti-Bypass Enforcer Engine</strong></td>
+              <td><a href="https://doi.org/10.5281/zenodo.24107494">10.5281/zenodo.24107494</a> (v1: <a href="https://doi.org/10.5281/zenodo.24097022">24097022</a>)</td>
+              <td><a href="https://huggingface.co/datasets/Jashory/hqas8-amcg3-governance-benchmarks">HF Dataset</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="systems">
+      <h2>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 9l3 3-3 3"/><line x1="13" y1="15" x2="17" y2="15"/></svg>
+        Open-Source AI Agent Safety Engines &amp; Technical Case Studies
+      </h2>
+      <div class="grid-3">
+        <article class="card">
+          <h3>HQAS-8 &amp; AMCG-3 Archive</h3>
+          <p>Monographs, Researcher dossiers, citation files, and deterministic governance protocols.</p>
+          <a href="https://jashory.github.io/hqas8-autonomous-agentic-governance/">Portal</a> · <a href="https://github.com/jashory/hqas8-autonomous-agentic-governance">Repository</a>
+        </article>
+        <article class="card">
+          <h3>AGY &amp; Claude Crash Guard Kit</h3>
+          <p>PreToolUse multimodal crash firewall preventing HTTP 400 / 30MB JSONL trajectory poisoning.</p>
+          <a href="https://jashory.github.io/agy-claude-crash-guard-kit/">Interactive Sandbox</a> · <a href="https://github.com/jashory/agy-claude-crash-guard-kit">GitHub</a>
+        </article>
+        <article class="card">
+          <h3>Infinite LLM Fallback Router</h3>
+          <p>Zero-dependency multi-provider SSE proxy with stateful circuit breakers &amp; Anthropic bridge.</p>
+          <a href="https://jashory.github.io/infinite-llm-fallback-router/">Live Simulator</a> · <a href="https://github.com/jashory/infinite-llm-fallback-router">GitHub</a>
+        </article>
+        <article class="card">
+          <h3>MCP Agent Security Auditor</h3>
+          <p>Fast CWE-mapped AST scanner for Model Context Protocol servers, hooks, and Firebase rules.</p>
+          <a href="https://jashory.github.io/mcp-agent-security-auditor/">AST Analyzer</a> · <a href="https://github.com/jashory/mcp-agent-security-auditor">GitHub</a>
+        </article>
+        <article class="card">
+          <h3>NASA &amp; AI Architecture Study</h3>
+          <p>8-Layer autonomous agentic verification &amp; sibling patch-gap security engineering case study.</p>
+          <a href="https://gist.github.com/jashory/2c6a3d23a1b17a70d963ca6fc07a8eb7">Read Case Study Gist</a>
+        </article>
+        <article class="card">
+          <h3>AI Grader Determinism Audit</h3>
+          <p>Systems determinism and RLHF evaluation rubric audit across automated LLM grading harnesses.</p>
+          <a href="https://gist.github.com/jashory/93de210430fea08080cedf9b8fe7252e">Read Technical Audit Gist</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="ecosystem">
+      <h2>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        Vision Flow Group Ecosystem (<span class="mono">Wikidata Q141910527</span>)
+      </h2>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Vision Flow Group</h3>
+          <p>Parent technology, AI research, RLHF evaluation, and cyber security organization.</p>
+          <a href="https://visionflowgroup.com/">visionflowgroup.com</a>
+        </article>
+        <article class="card">
+          <h3>Vision Flow Agency</h3>
+          <p>Commercial motion design, high-retention video production, AI UGC &amp; web systems.</p>
+          <a href="https://agency.visionflowgroup.com/">agency.visionflowgroup.com</a>
+        </article>
+        <article class="card">
+          <h3>Vision Flow Academy</h3>
+          <p>Applied AI workflows, engineering pipelines, and digital production curricula.</p>
+          <a href="https://academy.visionflowgroup.com/">academy.visionflowgroup.com</a>
+        </article>
+        <article class="card">
+          <h3>Vision Flow Studio</h3>
+          <p>Autonomous AI storyboarding, captioning, and multimodal production suite.</p>
+          <a href="https://studio.visionflowgroup.com/">studio.visionflowgroup.com</a>
+        </article>
+        <article class="card">
+          <h3>Vision Flow Tools Hub</h3>
+          <p>Edge-native privacy utilities for PDF inspection, media tooling &amp; developer workflows.</p>
+          <a href="https://go.visionflowgroup.com/">go.visionflowgroup.com</a>
+        </article>
+        <article class="card">
+          <h3>Hugging Face Research Space</h3>
+          <p>Interactive AI governance &amp; reproducible benchmark explorer on Hugging Face Hub.</p>
+          <a href="https://huggingface.co/spaces/Jashory/vision-flow-research-lab">Jashory/vision-flow-research-lab</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>&copy; 2026 Vision Flow Research Lab &amp; HM Shihabuddin Jashory · Official Contact: <a href="mailto:ceo@visionflowgroup.com">ceo@visionflowgroup.com</a></div>
+      <div class="inline-links">
+        <a href="https://jashory.github.io/llms.txt">llms.txt</a>
+        <a href="https://jashory.github.io/llms-full.txt">llms-full.txt</a>
+        <a href="https://jashory.github.io/sitemap.xml">sitemap.xml</a>
+        <a href="https://jashory.github.io/robots.txt">robots.txt</a>
+        <a href="https://github.com/visionflow-bd">@visionflow-bd</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
