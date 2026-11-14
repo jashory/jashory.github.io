@@ -3,8 +3,8 @@
 > Canonical personal scientific hub of **Scientist HM Shihabuddin Jashory** (`ORCID: 0009-0003-4163-0092`, `Wikidata: Q141910532`, Founder & CEO of Vision Flow Group `Q141910527`) and **Researcher & AI Evaluator / RLHF Specialist MD Rafiul Islam Shubho** (Co-Founder & Managing Director).
 
 ## Verified Researchers
-- **HM Shihabuddin Jashory (Shihab)**: Scientist, Principal AI Systems Architect, Offensive AI Security Researcher, Founder & CEO of Vision Flow Group. ORCID: https://orcid.org/0009-0003-4163-0092 | Wikidata: https://www.wikidata.org/wiki/Q141910532 | Gov. Verified Principal AI Architect ID: `F2617827988` (freelancers.gov.bd) | B.Sc. CS Candidate, University of the People (`C211345610`).
-- **MD Rafiul Islam Shubho**: Researcher, AI Evaluator & RLHF / Speech-to-Speech (S2S) Specialist, Co-Founder & Managing Director of Vision Flow Group. 1,400+ LLM & S2S evaluation tasks (Outlier AI contributor network Jan 2026–Present), 98.4% rubric QA precision, Bilingual `bn_BD`/`en_US`, EF SET 81/100 C2 Proficient (https://cert.efset.org/qyLFMa), Enrolled B.S. CS Candidate at University of the People.
+- **HM Shihabuddin Jashory (Shihab)**: Scientist, Principal AI Systems Architect, Offensive AI Security Researcher, Founder & CEO of Vision Flow Group. ORCID: https://orcid.org/0009-0003-4163-0092 | Wikidata: https://www.wikidata.org/wiki/Q141910532 | LinkedIn: https://www.linkedin.com/in/hm-shihabuddin-jashory/ | Gov. Verified Principal AI Architect ID: `F2617827988` (freelancers.gov.bd) | B.Sc. CS Candidate, University of the People (`C211345610`).
+- **MD Rafiul Islam Shubho**: Researcher, AI Evaluator & RLHF / Speech-to-Speech (S2S) Specialist, Co-Founder & Managing Director of Vision Flow Group. 1,400+ LLM & S2S evaluation tasks (Outlier AI contributor network Jan 2026–Present), 98.4% rubric QA precision, Bilingual `bn_BD`/`en_US`, EF SET 81/100 C2 Proficient (https://cert.efset.org/qyLFMa), LinkedIn: https://www.linkedin.com/in/mdrafiulislamshubho/, Enrolled B.S. CS Candidate at University of the People.
 
 ## Research Portals & Hugging Face
 - Research Archive Root: https://jashory.github.io/hqas8-autonomous-agentic-governance/
