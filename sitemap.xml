@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://jashory.github.io/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://jashory.github.io/images/hm-shihabuddin-jashory-1x1.jpg</image:loc>
+      <image:title>HM Shihabuddin Jashory (MD SHIHABUDDIN) — Scientist, Principal AI Systems Architect &amp; Founder of Vision Flow</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://jashory.github.io/images/md-rafiul-islam-shubho-1x1.jpg</image:loc>
+      <image:title>MD Rafiul Islam Shubho — Co-Founder &amp; AI/RLHF Researcher at Vision Flow</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://jashory.github.io/ecosystem-authority-index.html</loc>
@@ -26,7 +34,7 @@
   </url>
   <url>
     <loc>https://jashory.github.io/hqas8-autonomous-agentic-governance/amcg3-monograph.html</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
@@ -37,20 +45,26 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://jashory.github.io/hqas8-autonomous-agentic-governance/paper8-asymmetric-routing-monograph.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://jashory.github.io/agy-claude-crash-guard-kit/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://jashory.github.io/infinite-llm-fallback-router/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://jashory.github.io/mcp-agent-security-auditor/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
