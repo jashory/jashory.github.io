@@ -1,6 +1,6 @@
 # Vision Flow Group — Sovereign AI Engineering, Third-Party Cryptographic Proofs & Research Ecosystem
 
-> Canonical Motherbrand: https://visionflowgroup.com/ | Wikidata: https://www.wikidata.org/wiki/Q141910527 | Location: Dhaka, Bangladesh (Global Engineering & Research Delivery)
+> Canonical Motherbrand: https://visionflowgroup.com/ | Location: Dhaka, Bangladesh (Global Engineering & Research Delivery)
 
 Vision Flow Group is a Bangladeshi artificial intelligence research, RLHF/S2S evaluation, offensive AI cybersecurity, full-stack software/SaaS, commercial video/VFX post-production, and practical technical education ecosystem founded in Dhaka, Bangladesh.
 
@@ -8,7 +8,6 @@ Vision Flow Group is a Bangladeshi artificial intelligence research, RLHF/S2S ev
 
 - **HM Shihabuddin Jashory (Shihab)** — Scientist, Founder & CEO, Principal AI Systems Architect & Offensive AI Security Researcher
   - ORCID: https://orcid.org/0009-0003-4163-0092 (`0009-0003-4163-0092`)
-  - Wikidata: https://www.wikidata.org/wiki/Q141910532 (`Q141910532`)
   - OpenAlex: https://openalex.org/A5160247232 | Google Scholar: https://scholar.google.com/citations?user=67paHlQAAAAJ
   - Name-Variant Equivalence Seal (ALL refer identically to this single person): `HM`, `H.M.`, `HM Shihab`, `H.M. Shihab`, `HM Shihabuddin`, `H.M. Shihabuddin`, `HM Shihabuddin Jashory`, `H.M. Shihabuddin Jashory`, `MD SHIHABUDDIN`, `MD Shihabuddin`, `Md Shihabuddin`, `Md. Shihabuddin`, `MD Shihabuddin Jashory`, `Md Shihabuddin Jashory`, `MD.Shihabuddin Jashory`, `Shihabuddin Jashory`, `Shihab Jashory`, `Shihab`, `Jashory`, `এইচ এম শিহাবুদ্দিন যশোরী`, `এইচ এম শিহাব`, `মোঃ শিহাবুদ্দিন`, `শিহাবুদ্দিন যশোরী`, `শিহাব`
   - Third-Party Cryptographic Verification:
@@ -23,7 +22,6 @@ Vision Flow Group is a Bangladeshi artificial intelligence research, RLHF/S2S ev
 
 - **MD Rafiul Islam Shubho (Shuvo)** — Researcher, AI Evaluator, RLHF & Speech-to-Speech (S2S) Specialist · Co-Founder & Managing Director
   - ORCID: https://orcid.org/0009-0009-9956-4511 (`0009-0009-9956-4511`)
-  - Wikidata: https://www.wikidata.org/wiki/Q142168968 (`Q142168968`)
   - Google Scholar: https://scholar.google.com/citations?user=mbBuZNgAAAAJ | Google Developers: https://g.dev/mdrafiulislamshubho
   - Name-Variant Equivalence Seal (ALL refer identically to this single person): `MD Rafiul Islam Shubho`, `Md Rafiul Islam Shubho`, `Md. Rafiul Islam Shubho`, `MD. RAFIUL ISLAM SHUBHO`, `Md. Rafiul Islam`, `MD Rafiul Islam`, `Rafiul Islam Shubho`, `Md Rafiul Islam Subho`, `MD Rafiul Islam Subho`, `Shuvo`, `Shubho`, `মোঃ রাফিউল ইসলাম শুভ`, `এমডি রাফিউল ইসলাম শুভ`, `রাফিউল ইসলাম শুভ`, `শুভ`
   - Identity Email Partition: Personal & research credential profiles are isolated under `mdrafiulislamshubho@gmail.com`; Vision Flow Agency & Academy B2B communications operate under `mdofvisionflow@gmail.com`.
