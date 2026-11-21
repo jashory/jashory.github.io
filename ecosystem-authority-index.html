@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <script>
-    (function{try{
+    (function(){try{
       var s=localStorage.getItem('vf-doc-theme');
       var d=s?s:(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
       document.documentElement.setAttribute('data-theme',d);
-    }catch(e){}});
+    }catch(e){}})();
   </script>
   <title>Global Ecosystem & Knowledge Graph Authority Index — HM Shihabuddin Jashory, MD Rafiul Islam Shubho & Vision Flow Group</title>
   <link rel="icon" href="/favicon.ico?v=20261115" sizes="48x48">
@@ -1055,18 +1055,18 @@ footer.doc-foot {
 
 
   <script>
-    (function{
+    (function(){
       var btn=document.getElementById('theme-toggle');
       if(!btn)return;
-      function sync{btn.textContent='Theme: '+(document.documentElement.getAttribute('data-theme')==='dark'?'Dark':'Light');}
-      sync;
-      btn.addEventListener('click',function{
+      function sync(){btn.textContent='Theme: '+(document.documentElement.getAttribute('data-theme')==='dark'?'Dark':'Light');}
+      sync();
+      btn.addEventListener('click',function(){
         var next=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';
         document.documentElement.setAttribute('data-theme',next);
         try{localStorage.setItem('vf-doc-theme',next);}catch(e){}
-        sync;
+        sync();
       });
-    });
+    })();
   </script>
 </body>
 </html>
