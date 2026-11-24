@@ -75,4 +75,10 @@ Vision Flow Group is an artificial intelligence systems engineering, offensive a
 - TechBehemoths Verified Company `#101215` (Ranked `#1` in 3D Design, `#2` in Motion Design, `#4` in Cybersecurity, `#14` in Artificial Intelligence in Bangladesh): https://techbehemoths.com/company/vision-flow-group
 - Trustpilot Claimed Business Profile: https://www.trustpilot.com/review/visionflowgroup.com
 - Clutch Vendor Profile: https://clutch.co/profile/vision-flow-group
-- Glama MCP Server Directory: https://glama.ai/mcp/servers
+- Glama Verified MCP Servers:
+  - mcp-agent-security-auditor: https://glama.ai/mcp/servers/jashory/mcp-agent-security-auditor
+  - infinite-llm-fallback-router: https://glama.ai/mcp/servers/jashory/infinite-llm-fallback-router
+- M8ven Trust Index Verified MCP Servers (Independent Static Code & Tool Surface Verification):
+  - sentinelforge-codegeist (5 tools): https://m8ven.ai/mcp/jashory/sentinelforge-codegeist (JSON Score API: https://m8ven.ai/api/mcp/score?url=https%3A%2F%2Fgithub.com%2Fjashory%2Fsentinelforge-codegeist)
+  - phantomglass-kiroween (7 tools): https://m8ven.ai/mcp/jashory/phantomglass-kiroween (JSON Score API: https://m8ven.ai/api/mcp/score?url=https%3A%2F%2Fgithub.com%2Fjashory%2Fphantomglass-kiroween)
+  - mcp-agent-security-auditor: https://m8ven.ai/mcp/jashory/mcp-agent-security-auditor (JSON Score API: https://m8ven.ai/api/mcp/score?url=https%3A%2F%2Fgithub.com%2Fjashory%2Fmcp-agent-security-auditor)
