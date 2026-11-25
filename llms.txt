@@ -57,7 +57,7 @@ Vision Flow Group is an artificial intelligence systems engineering, offensive a
 2. **infinite-llm-fallback-router** — Zero-downtime multi-provider LLM fallback and circuit-breaker router: https://pypi.org/project/infinite-llm-fallback-router/ (GitHub: https://github.com/jashory/infinite-llm-fallback-router)
 3. **agy-claude-crash-guard-kit** — Deterministic PreToolUse binary guard and post-compaction recovery toolkit for CLI agents: https://pypi.org/project/agy-claude-crash-guard-kit/ (GitHub: https://github.com/jashory/agy-claude-crash-guard-kit)
 
-## Open-Access DOI-Archived Publications (8 Zenodo DOIs, 1 Figshare DataCite DOI & 3 OSF MetaArXiv Preprints)
+## Open-Access DOI-Archived Publications (9 Zenodo DOIs, 1 Figshare DataCite DOI & 3 OSF MetaArXiv Preprints)
 
 1. **HQAS-8 Governance Specification** — https://doi.org/10.5281/zenodo.23832719 (OSF: https://osf.io/preprints/metaarxiv/rm5ab_v1)
 2. **Defense-in-Depth Security Hardening for Autonomous CLI Agents** — https://doi.org/10.5281/zenodo.23832725 (OSF: https://osf.io/preprints/metaarxiv/6sjmk_v1)
